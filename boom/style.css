@@ -1,0 +1,298 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+		margin-bottom: 50px;
+		text-align: center;
+	}
+        section{
+         	/*border: 1px solid black;*/
+         		font-family: italic;
+              margin-bottom: 10px;
+            padding: 5px; 
+            width: 440px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            float: both;
+            
+         }
+           #section1 {
+         	background-color:  #6cb2eb;
+          
+       
+
+
+         }
+
+         #section2{
+         	background-color: #6cb2eb;
+         	
+      
+         }
+
+         #section3{
+         	background-color: #6cb2eb;
+         	
+         }
+         h2 {
+	color: black;
+	width: 30%;
+	height: 10%;
+	border: 1px solid black;
+	text-align: center;
+
+}    
+
+#h2_1 {
+	background-color: #A00BC8;
+	position: relative;
+			
+			top: -25px;
+			left: 71%;
+
+
+		}
+
+#h2_2 {
+	background-color: red;
+	position: relative;
+			top: -25px;
+			left: 71%;
+    } 
+
+#h2_3 {
+	background-color: blue;
+	position: relative;
+			top: -25px;
+			left: 71%;
+		}
+
+
+
+     
+
+
+
+
+
+
+         	
+          
+
+
+		/*Simple Responsible frameworks*/
+		.row{
+			width: 100%;
+		}
+		/* Large media device */
+
+@media (min-width: 992px){
+	.col-lg-1,	.col-lg-2,	.col-lg-3, 	.col-lg-4,	.col-lg-5,	.col-lg-6,
+		.col-lg-7, 	.col-lg-8, 	.col-lg-9,	.col-lg-10,	.col-lg-11,	.col-lg-12
+		{
+			float: left;
+			border: 12px solid white;
+			padding: 5px;
+
+		
+		}
+	  
+	  .col-lg-1{
+	  	width: 8.33%;
+	  }
+
+	  .col-lg-2{
+	  	width: 16.66%;
+	  }
+      
+      .col-lg-3{
+	  	width: 25%;
+	  }
+      
+      .col-lg-4{
+	  	width: 33%;
+	  }
+      .col-lg-5{
+	  	width: 41.66%;
+	  }
+      .col-lg-6{
+	  	width: 50%;
+	  }
+      .col-lg-7{
+	  	width: 58.33%;
+	  }
+      .col-lg-8{
+	  	width: 66.66%;
+	  }
+      .col-lg-9{
+	  	width: 74.99%;
+	  }
+      .col-lg-10{
+	  	width: 83.33%;
+	  }
+      .col-lg-11{
+	  	width: 91.66%;
+	  }
+      .col-lg-12{
+	  	width: 100%;
+	  }
+
+}	
+		@media (min-width: 768px) and (max-width: 991px){
+	.col-md-1,	.col-md-2,	.col-md-3, 	.col-md-4,	.col-md-5,	.col-md-6,
+		.col-md-7, 	.col-md-8, 	.col-md-9,	.col-md-10,	.col-md-11,	.col-md-12
+		{
+			float: left;
+			border: 12px solid white;
+			padding: 5px;
+
+			
+		}
+	  
+	  .col-md-1{
+	  	width: 8.33%;
+	  }
+
+	  .col-md-2{
+	  	width: 16.66%;
+	  }
+      
+      .col-md-3{
+	  	width: 25%;
+	  }
+      
+      .col-md-4{
+	  	width: 33%;
+	  }
+      .col-md-5{
+	  	width: 41.66%;
+	  }
+      .col-md-6{
+	  	width: 50%;
+	  }
+      .col-md-7{
+	  	width: 58.33%;
+	  }
+      .col-md-8{
+	  	width: 66.66%;
+	  }
+      .col-md-9{
+	  	width: 74.99%;
+	  }
+      .col-md-10{
+	  	width: 83.33%;
+	  }
+      .col-md-11{
+	  	width: 91.66%;
+	  }
+      .col-md-12{
+	  	width: 100%;
+	  }
+
+	           h2 {
+	color: black;
+	width: 30%;
+	height: 10%;
+	border: 1px solid black;
+	text-align: center;
+
+}   
+#h2_3 {
+	background-color: blue;
+	position: relative;
+			top: -25px;
+			left: 70.6%;
+		}
+
+}		
+
+		/* mobile media device */
+
+@media (max-width: 767px){
+	.col-mo-1,	.col-mo-2,	.col-mo-3, 	.col-mo-4,	.col-mo-5,	.col-mo-6,
+		.col-mo-7, 	.col-mo-8, 	.col-mo-9,	.col-mo-10,	.col-mo-11,	.col-mo-12
+		{
+			float: left;
+			border: 12px solid white;
+			padding: 5px;
+
+		
+		}
+	  
+	  .col-mo-1{
+	  	width: 8.33%;
+	  }
+
+	  .col-mo-2{
+	  	width: 16.66%;
+	  }
+      
+      .col-mo-3{
+	  	width: 25%;
+	  }
+      
+      .col-mo-4{
+	  	width: 33%;
+	  }
+      .col-mo-5{
+	  	width: 41.66%;
+	  }
+      .col-mo-6{
+	  	width: 50%;
+	  }
+      .col-lg-7{
+	  	width: 58.33%;
+	  }
+      .col-mo-8{
+	  	width: 66.66%;
+	  }
+      .col-mo-9{
+	  	width: 74.99%;
+	  }
+      .col-mo-10{
+	  	width: 83.33%;
+	  }
+      .col-mo-11{
+	  	width: 91.66%;
+	  }
+      .col-mo-12{
+	  	width: 100%;
+	  }
+
+	           h2 {
+	color: black;
+	width: 26%;
+	height: 10%;
+	border: 1px solid black;
+	text-align: center;
+
+}    
+
+#h2_1 {
+	background-color: #A00BC8;
+	position: relative;
+			
+			top: -25px;
+			left: 74.7%;
+
+
+		}
+
+#h2_2 {
+	background-color: red;
+	position: relative;
+			top: -25px;
+			left: 74.7%;
+    } 
+
+#h2_3 {
+	background-color: blue;
+	position: relative;
+			top: -25px;
+			left: 74.7%;
+		}
+
+
+}	
